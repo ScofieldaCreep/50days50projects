@@ -20,8 +20,10 @@ body {
 	position: absolute;
 	top: -30px;
 	left: -30px;
+	/* 可以这样进行数值计算 */
 	width: calc(100vw + 60px);
 	height: calc(100vh + 60px);
+	/* z-index 用来排列 元素的 前后顺序 */
 	z-index: -1;
 	filter: blur(0px);
 }
